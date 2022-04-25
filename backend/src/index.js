@@ -10,7 +10,7 @@ const createQuery =
   "CREATE DATABASE IF NOT EXISTS number WITH  OWNER = admin ENCODING = 'UTF8' TABLESPACE = pg_default CONNECTION LIMIT = -1;";
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({origin: '*'}));
 let sequelize = new Sequelize(
   "postgres://postgres:postgress@postgres:5432/postgres"
 );
