@@ -8,3 +8,15 @@
 
 3. Open `http://localhost:3000` to view it in the browser.
    Server runs on `http://localhost:5000`.
+
+## Technical Stacks
+
+FrontEnd: Reactjs
+
+Backend: Node.js, Express, Sequalize
+
+Database: PostgresSQL
+
+Environment: Docker, Node
+
+Deployment: AWS EC2
