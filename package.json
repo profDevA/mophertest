@@ -1,0 +1,22 @@
+{
+  "name": "morphertest",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:build": "docker-compose -p morpherChallenge build",
+    "docker:down": "docker-compose -p morpherChallenge down",
+    "docker:up": "docker-compose -p morpherChallenge up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
